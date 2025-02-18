@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Mobile Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="iOS Tests(failed)" verbose="0">
+    <parameter name="platform" value="iOS"/>
+    <classes>
+      <class name="com.trae.automation.tests.LoginTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.trae.automation.tests.LoginTest -->
+    </classes>
+  </test> <!-- iOS Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Android Tests(failed)" verbose="0">
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="com.trae.automation.tests.LoginTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.trae.automation.tests.LoginTest -->
+    </classes>
+  </test> <!-- Android Tests(failed) -->
+</suite> <!-- Failed suite [Mobile Automation Suite] -->

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Mobile Automation Suite</th></tr>
+<tr><td><a href="#t0">iOS Tests</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">52</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Android Tests</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">52</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">2</th><th class="num">0</th><th class="num">0</th><th class="num">104</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Mobile Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">iOS Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.trae.automation.tests.LoginTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1739871894291</td><td rowspan="1">38</td></tr><tr><th colspan="4">iOS Tests &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.trae.automation.tests.LoginTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1739871894332</td><td rowspan="1">0</td></tr><tr><th colspan="4">iOS Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.trae.automation.tests.LoginTest</td><td><a href="#m2">testLogin</a></td><td rowspan="1">1739871894331</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Android Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.trae.automation.tests.LoginTest</td><td><a href="#m3">setup</a></td><td rowspan="1">1739871894291</td><td rowspan="1">38</td></tr><tr><th colspan="4">Android Tests &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.trae.automation.tests.LoginTest</td><td><a href="#m4">tearDown</a></td><td rowspan="1">1739871894332</td><td rowspan="1">0</td></tr><tr><th colspan="4">Android Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.trae.automation.tests.LoginTest</td><td><a href="#m5">testLogin</a></td><td rowspan="1">1739871894331</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>iOS Tests</h2><h3 id="m0">com.trae.automation.tests.LoginTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>iOS</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: &apos;void org.openqa.selenium.remote.http.ClientConfig.&lt;init&gt;(java.net.URI, java.time.Duration, java.time.Duration, org.openqa.selenium.remote.http.Filter, java.net.Proxy, org.openqa.selenium.Credentials)&apos;
+	at io.appium.java_client.AppiumClientConfig.&lt;init&gt;(AppiumClientConfig.java:62)
+	at io.appium.java_client.AppiumClientConfig.defaultConfig(AppiumClientConfig.java:79)
+	at io.appium.java_client.remote.AppiumCommandExecutor.&lt;init&gt;(AppiumCommandExecutor.java:109)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.ios.IOSDriver.&lt;init&gt;(IOSDriver.java:106)
+	at com.trae.automation.base.BaseTest.setup(BaseTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.trae.automation.tests.LoginTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.trae.automation.tests.LoginTest#testLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: &apos;void org.openqa.selenium.remote.http.ClientConfig.&lt;init&gt;(java.net.URI, java.time.Duration, java.time.Duration, org.openqa.selenium.remote.http.Filter, java.net.Proxy, org.openqa.selenium.Credentials)&apos;
+	at io.appium.java_client.AppiumClientConfig.&lt;init&gt;(AppiumClientConfig.java:62)
+	at io.appium.java_client.AppiumClientConfig.defaultConfig(AppiumClientConfig.java:79)
+	at io.appium.java_client.remote.AppiumCommandExecutor.&lt;init&gt;(AppiumCommandExecutor.java:109)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.ios.IOSDriver.&lt;init&gt;(IOSDriver.java:106)
+	at com.trae.automation.base.BaseTest.setup(BaseTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Android Tests</h2><h3 id="m3">com.trae.automation.tests.LoginTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Android</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: &apos;void org.openqa.selenium.remote.http.ClientConfig.&lt;init&gt;(java.net.URI, java.time.Duration, java.time.Duration, org.openqa.selenium.remote.http.Filter, java.net.Proxy, org.openqa.selenium.Credentials)&apos;
+	at io.appium.java_client.AppiumClientConfig.&lt;init&gt;(AppiumClientConfig.java:62)
+	at io.appium.java_client.AppiumClientConfig.defaultConfig(AppiumClientConfig.java:79)
+	at io.appium.java_client.remote.AppiumCommandExecutor.&lt;init&gt;(AppiumCommandExecutor.java:109)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
+	at com.trae.automation.base.BaseTest.setup(BaseTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.trae.automation.tests.LoginTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.trae.automation.tests.LoginTest#testLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: &apos;void org.openqa.selenium.remote.http.ClientConfig.&lt;init&gt;(java.net.URI, java.time.Duration, java.time.Duration, org.openqa.selenium.remote.http.Filter, java.net.Proxy, org.openqa.selenium.Credentials)&apos;
+	at io.appium.java_client.AppiumClientConfig.&lt;init&gt;(AppiumClientConfig.java:62)
+	at io.appium.java_client.AppiumClientConfig.defaultConfig(AppiumClientConfig.java:79)
+	at io.appium.java_client.remote.AppiumCommandExecutor.&lt;init&gt;(AppiumCommandExecutor.java:109)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
+	at com.trae.automation.base.BaseTest.setup(BaseTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

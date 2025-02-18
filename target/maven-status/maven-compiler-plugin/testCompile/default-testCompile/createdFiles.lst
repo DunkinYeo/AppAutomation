@@ -1,0 +1,3 @@
+com/trae/automation/tests/LoginTest.class
+com/trae/automation/pages/LoginPage.class
+com/trae/automation/base/BaseTest.class
